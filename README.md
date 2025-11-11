@@ -145,5 +145,3 @@ Thanks for helping make Netflix-Clone even better!
 ---
 
 Thanks for checking out Netflix-Clone — happy coding & happy streaming! 🍿
-
-```
