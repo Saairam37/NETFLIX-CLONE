@@ -6,7 +6,7 @@
 ## 🎯 Project Overview  
 Netflix-Clone is a full-stack streaming-style web application built with the MERN stack. Users can browse movies and TV shows, see details, view trailers, maintain search history, and more—all in a UI inspired by Netflix. Highlights include:  
 - Responsive UI on desktop & mobile  
-- Integrated with the The Movie Database (TMDb) API for fetching movie/TV data. :contentReference[oaicite:3]{index=3}  
+- Integrated with the The Movie Database (TMDb) API for fetching movie/TV data.
 - Search movies, series, actors  
 - View similar titles and play trailers  
 - JWT-based user authentication  
@@ -22,7 +22,6 @@ Netflix-Clone is a full-stack streaming-style web application built with the MER
 - **User Search History** – store and retrieve a user’s search history  
 - **Finding Similar Content** – show similar movies or TV shows  
 - **Authentication / Authorization** – Users sign up, log in, and protected routes using JWT  
-- **Polished Landing Page & Deployment Ready** – easily hostable on Vercel, Heroku, etc. :contentReference[oaicite:4]{index=4}  
 
 ---
 
@@ -31,14 +30,13 @@ Netflix-Clone is a full-stack streaming-style web application built with the MER
 - Backend: **Node.js**, **Express.js**, **MongoDB**  
 - Authentication & Security: **JWT**  
 - External API: **TMDb API**  
-- Tools & Deployment: Add your hosting platform here (e.g., Vercel, Netlify, Heroku) :contentReference[oaicite:5]{index=5}  
 
 ---
 
 ## 🔧 Getting Started  
 ### Prerequisites  
 - Node.js (v14+ recommended)  
-- NPM or Yarn  
+- NPM 
 - MongoDB instance (local or Atlas)  
 - TMDb API key (for fetching movie/TV data)  
 
@@ -102,8 +100,6 @@ Here’s a summary of the backend’s major endpoints (example):
 | GET    | `/api/movies/:id`    | Get details of a movie/show | Yes       |
 | GET    | `/api/users/history` | Get user’s search history   | Yes       |
 | POST   | `/api/users/history` | Save a search term for user | Yes       |
-
-> *(Adapt the endpoints to match your actual implementation)*
 
 ---
 
